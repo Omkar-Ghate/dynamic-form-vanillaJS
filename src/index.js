@@ -5,7 +5,7 @@ const inputList = document.querySelector(".input-list");
 btn.addEventListener("click", handleClick);
 var count = 1;
 function handleClick(e) {
-  if (count <= 7) {
+  if (count <= 6) {
     //creating new div with class: input-item
     const inputDiv = document.createElement("div");
     inputDiv.classList.add("input-item");
