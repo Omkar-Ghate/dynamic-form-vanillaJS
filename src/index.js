@@ -14,7 +14,7 @@ function handleClick(e) {
     const newItem = document.createElement("div");
     newItem.innerHTML = `
   <label html-for="name">${labelName}</label>
-  <input id="name" type="text" placeholder="Enter your name"> </input>
+  <input id="name" type="text" placeholder="Type here"> </input>
   `;
 
     newItem.classList.add("input-text");
