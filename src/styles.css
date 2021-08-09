@@ -27,14 +27,11 @@ li {
 }
 .imgContainer {
   clear: both;
-  display: flex;
-  flex-direction: column;
   float: right;
   margin: 1rem;
-  align-items: center;
-  justify-content: center;
 }
 .imgList {
+  clear: both;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,12 +44,11 @@ li {
   height: 15rem;
   width: 15rem;
   border-radius: 0.3rem;
-  display: flex;
-  /* visibility: hidden; */
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   margin: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .drag-area.active {
   border: 0.1rem solid blueviolet;
